@@ -8,7 +8,6 @@ import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 import About from './components/pages/About';
 
-import front from './components/front';
 
 function App() {
   return (
@@ -23,8 +22,6 @@ function App() {
           <Route path='/products' component={Products} />
           <Route path='/sign-up' component={SignUp} />
         </Switch>
-        <front/>
-
         
       </Router>
     </>
