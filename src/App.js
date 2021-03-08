@@ -12,6 +12,7 @@ import front from './components/front';
 
 function App() {
   return (
+    <>
       <Router>
 
         <Navbar />
@@ -26,6 +27,7 @@ function App() {
 
         
       </Router>
+    </>
   );
 }
 
